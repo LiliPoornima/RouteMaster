@@ -157,7 +157,7 @@ The application features a modern, responsive design with:
 ## 📞 Contact Information
 
 - **Email**: userone@gmail.com
-- **Phone**: +94 77 589 3213
+
 - **Social Media**: RouteMaster/facebook.com
 
 ## 🤝 Contributing
