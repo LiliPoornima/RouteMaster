@@ -76,31 +76,6 @@ The system uses a MySQL database (`busschedulings`) with the following main tabl
 - MySQL/MariaDB
 - Web browser
 
-### Installation Steps
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/RouteMaster.git
-   cd RouteMaster
-   ```
-
-2. **Setup Database**
-   - Start XAMPP and ensure Apache and MySQL services are running
-   - Open phpMyAdmin (http://localhost/phpmyadmin)
-   - Create a new database named `busschedulings`
-   - Import the `IWT_KDY/busschedulings.sql` file
-
-3. **Configure Database Connection**
-   - Edit `IWT_KDY/KNDUNI_20/config.php`
-   - Update database credentials if needed:
-     ```php
-     $con = new mysqli("localhost", "root", "", "busschedulings");
-     ```
-
-4. **Access the Application**
-   - Place the project in your XAMPP `htdocs` folder
-   - Navigate to `http://localhost/RouteMaster/IWT_KDY/KNDUNI_20/`
-
 ## 👥 User Roles
 
 ### Passenger
@@ -154,11 +129,6 @@ The application features a modern, responsive design with:
 6. **Feedback System**: Customer support and feedback collection
 7. **Admin Controls**: Comprehensive administrative tools
 
-## 📞 Contact Information
-
-- **Email**: userone@gmail.com
-
-- **Social Media**: RouteMaster/facebook.com
 
 
 ## 🙏 Acknowledgments
