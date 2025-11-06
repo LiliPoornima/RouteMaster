@@ -1,40 +1,53 @@
-# RouteMaster - Bus Scheduling and Booking System
+# 🚌 RouteMaster – Bus Scheduling & Booking System
+## 🧩 A comprehensive platform streamlining bus transportation from booking to delivery.
 
-## 📋 Project Overview
+---
 
-RouteMaster is a comprehensive web-based bus scheduling and booking system that provides real-time bus information, seat reservation, and payment processing. The system serves as a complete solution for bus transportation management with separate interfaces for passengers, drivers, and administrators.
+## 🔗 Project Title: RouteMaster — Bus Transportation Management Platform
+## 🧑‍💻 Role: Full-Stack Developer | System Designer
+## 🖥️ Tech Stack: PHP, MySQL, HTML/CSS/JavaScript | XAMPP | Payment Gateway Integration
 
-## 🚀 Features
+---
 
-### For Passengers
-- **User Registration & Authentication**: Secure signup and login system
-- **Bus Search & Booking**: Search available buses by route, date, and time
-- **Seat Reservation**: Real-time seat booking with instant confirmation
-- **Payment Processing**: Secure payment gateway supporting major cards and cryptocurrencies
-- **Ticket Management**: View, print, and cancel tickets
-- **Refund System**: Automated refund processing for cancelled bookings
-- **Feedback System**: Submit and view feedback for service improvement
+## ✨ Key Features:
 
-### For Drivers
-- **Driver Portal**: Dedicated login and dashboard for drivers
-- **Route Management**: View assigned routes and schedules
-- **Passenger Information**: Access passenger details for assigned trips
+### 🎫 **Passenger Portal**
+- **User Registration & Authentication** – Secure signup and login system
+- **Bus Search & Booking** – Search available buses by route, date, and time
+- **Seat Reservation** – Real-time seat booking with instant confirmation
+- **Payment Processing** – Integrated payment gateway supporting major cards and cryptocurrencies
+- **Ticket Management** – View, print, and cancel tickets with digital receipts
+- **Refund System** – Automated refund processing for cancelled bookings
+- **Feedback System** – Submit and view feedback for service improvement
 
-### For Administrators
-- **Admin Dashboard**: Comprehensive management interface
-- **Driver Management**: Add, edit, and manage driver information
-- **Passenger Management**: View and manage passenger accounts
-- **Bus Schedule Management**: Create and modify bus schedules
-- **Feedback Management**: Monitor and respond to passenger feedback
-- **System Analytics**: View booking statistics and reports
+### 🚗 **Driver Portal**
+- **Driver Dashboard** – Dedicated login and management interface
+- **Route Management** – View assigned routes and schedules
+- **Passenger Information** – Access passenger details for assigned trips
+- **Real-time Updates** – Live schedule and route notifications
+
+### 👨‍💼 **Admin Dashboard**
+- **Comprehensive Management** – Complete system administration interface
+- **Driver Management** – Add, edit, and manage driver information
+- **Passenger Management** – View and manage passenger accounts
+- **Bus Schedule Management** – Create and modify bus schedules
+- **Feedback Management** – Monitor and respond to passenger feedback
+- **System Analytics** – View booking statistics and performance reports
+
+---
 
 ## 🛠️ Technology Stack
 
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Backend**: PHP
-- **Database**: MySQL (MariaDB)
-- **Server**: Apache/XAMPP
-- **Payment Integration**: Support for major payment gateways
+| Component | Technology |
+|-----------|------------|
+| **Frontend** | HTML5, CSS3, JavaScript |
+| **Backend** | PHP |
+| **Database** | MySQL (MariaDB) |
+| **Server** | Apache/XAMPP |
+| **Payment** | Stripe Integration |
+| **UI/UX** | Responsive Design |
+
+---
 
 ## 📁 Project Structure
 
@@ -56,16 +69,20 @@ RouteMaster/
 └── README.md
 ```
 
+---
+
 ## 🗄️ Database Schema
 
 The system uses a MySQL database (`busschedulings`) with the following main tables:
 
-- **bus**: Bus schedules and routes
-- **passenger**: Passenger account information
-- **drivers**: Driver details and credentials
-- **payment**: Payment transaction records
-- **feedback**: Customer feedback and support tickets
-- **createaccount**: User registration data
+- **bus** – Bus schedules and routes
+- **passenger** – Passenger account information
+- **drivers** – Driver details and credentials
+- **payment** – Payment transaction records
+- **feedback** – Customer feedback and support tickets
+- **createaccount** – User registration data
+
+---
 
 ## 🚀 Installation & Setup
 
@@ -100,64 +117,57 @@ The system uses a MySQL database (`busschedulings`) with the following main tabl
    - Place the project in your XAMPP `htdocs` folder
    - Navigate to `http://localhost/RouteMaster/IWT_KDY/KNDUNI_20/`
 
-## 👥 User Roles
-
-### Passenger
-- Register and create account
-- Search and book bus tickets
-- Make payments and manage bookings
-- Submit feedback and support requests
-
-### Driver
-- Login to driver portal
-- View assigned routes and schedules
-- Access passenger information for trips
-
-### Administrator
-- Manage all system operations
-- Add/edit drivers and bus schedules
-- Monitor bookings and payments
-- Handle customer feedback
+---
 
 ## 💳 Payment Features
 
-- Support for major credit/debit cards
-- Cryptocurrency payment options
-- Secure payment processing
-- Automated refund system
-- Payment confirmation and receipts
+- **Multi-Payment Support** – Major credit/debit cards and cryptocurrencies
+- **Secure Processing** – Encrypted payment gateway integration
+- **Automated Refunds** – Instant refund processing for cancellations
+- **Payment Confirmation** – Digital receipts and confirmation emails
+- **Transaction History** – Complete payment record management
+
+---
 
 ## 🔒 Security Features
 
-- Password-protected user accounts
-- Secure payment processing
-- Session management
-- Input validation and sanitization
-- SQL injection prevention
+- **Password Protection** – Secure user account management
+- **Session Management** – Robust session handling and timeout
+- **Input Validation** – Comprehensive data sanitization
+- **SQL Injection Prevention** – Prepared statements and parameterized queries
+- **Payment Security** – PCI-compliant payment processing
+
+---
 
 ## 📱 User Interface
 
 The application features a modern, responsive design with:
-- Clean and intuitive navigation
-- Mobile-friendly interface
-- Professional styling with CSS
-- Interactive elements with JavaScript
+- **Clean Navigation** – Intuitive menu structure and user flow
+- **Mobile-Friendly** – Responsive design for all device sizes
+- **Professional Styling** – Modern CSS with smooth animations
+- **Interactive Elements** – JavaScript-powered dynamic features
+
+---
 
 ## 🛣️ Key Functionalities
 
-1. **Real-time Bus Information**: Live updates on bus schedules and availability
-2. **Instant Booking**: Quick and easy seat reservation process
-3. **Payment Integration**: Multiple payment options for user convenience
-4. **Ticket Management**: Digital ticket generation and management
-5. **Refund Processing**: Automated refund system for cancellations
-6. **Feedback System**: Customer support and feedback collection
-7. **Admin Controls**: Comprehensive administrative tools
+1. **Real-time Bus Information** – Live updates on bus schedules and availability
+2. **Instant Booking** – Quick and easy seat reservation process
+3. **Payment Integration** – Multiple payment options for user convenience
+4. **Ticket Management** – Digital ticket generation and management
+5. **Refund Processing** – Automated refund system for cancellations
+6. **Feedback System** – Customer support and feedback collection
+7. **Admin Controls** – Comprehensive administrative tools
+
+---
 
 ## 📞 Contact Information
 
 - **Email**: userone@gmail.com
 - **Phone**: +94 77 589 3213
 - **Social Media**: RouteMaster/facebook.com
+
+---
 
 ## 🤝 Contributing
 
@@ -167,9 +177,13 @@ The application features a modern, responsive design with:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+---
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
 
 ## 🙏 Acknowledgments
 
@@ -180,4 +194,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**RouteMaster** - Making bus travel simple, secure, and convenient! 🚌✨
+## 🚌 RouteMaster ensures transparency, security, and a seamless experience for every stakeholder — from passenger to driver to administrator!
+
+**🔗 GitHub Repo**: https://github.com/yourusername/RouteMaster
+
+**🙌 A big thanks to my amazing team for their collaboration, innovation, and hard work throughout this journey!**
+
+#PHP #WebDevelopment #FullStackProject #BusSystem #MySQL #XAMPP #TeamWork #OnlineBooking #RouteMaster
